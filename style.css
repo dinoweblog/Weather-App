@@ -1,0 +1,209 @@
+body {
+        background: url(https://images.unsplash.com/photo-1505533542167-8c89838bb19e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+          no-repeat;
+        background-size: cover;
+      }
+
+      #container {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        background-color: transparent;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+      }
+
+      #inputBox {
+        width: 80%;
+        display: flex;
+        margin: auto;
+        margin-top: 8%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #inputBox input {
+        height: 30px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border: 1px solid #ffcc1d;
+        padding-left: 20px;
+        font-size: 14px;
+      }
+      #inputBox input:focus {
+        outline: none;
+      }
+      #inputBox button {
+        height: 34px;
+        border: none;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #ffcc1d;
+        cursor: pointer;
+      }
+      #leftBox {
+        width: 25%;
+        background-color: white;
+        border-radius: 20px;
+        border-top: 10px solid #f0a500;
+        border-bottom: 10px solid #f0a500;
+      }
+
+      /* ============================================ */
+      #rightBox {
+        width: 72%;
+        margin-left: 30px;
+      }
+      #rightBottom {
+        display: flex;
+        margin-top: 4%;
+      }
+      #otherInfo {
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 21px;
+        width: 25%;
+        border-top: 10px solid #f0a500;
+        border-bottom: 10px solid #f0a500;
+      }
+      #otherInfo p {
+        line-height: 35px;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        text-align: center;
+      }
+
+      #mapDiv {
+        width: 75%;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-left: 20px;
+        background-color: white;
+        border-top: 10px solid #f0a500;
+        border-bottom: 10px solid #f0a500;
+      }
+      #mapDiv iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        scroll-behavior: unset;
+      }
+
+      #tempValue {
+        text-align: center;
+        font-weight: bold;
+        font-size: 60px;
+      }
+      #name {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+      }
+
+      #iconImg {
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      #getName {
+        font-size: 36px;
+      }
+
+      #sun {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 30px 0 30px;
+      }
+      #sun img {
+        width: 70%;
+      }
+      #sunrise,
+      #sunset {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        color: #f0a500;
+        font-weight: bold;
+      }
+
+      #sunset {
+        margin-left: 80px;
+        color: tomato;
+        font-weight: bold;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+      .sun {
+        color: black;
+      }
+      #temp,
+      #windDiv {
+        text-align: center;
+        padding: 13px 20px;
+        margin: 0;
+        margin: 0 30px 0 30px;
+        line-height: 10px;
+        border-radius: 5px;
+      }
+
+      #temp h3 {
+        padding: 0;
+        margin: 0 0 20px 0;
+        color: #ffcc1d;
+      }
+      #windDiv {
+        border: 1px solid #e8e8cc;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #todayDate {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgb(71, 71, 71);
+      }
+
+      #tempWeekDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        border-top: 10px solid #f0a500;
+        border-bottom: 10px solid #f0a500;
+      }
+
+      #tempDiv {
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 3px;
+        border: 5px solid white;
+        border-radius: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        color: white;
+        margin-left: 5px;
+      }
+      #tempDiv:hover {
+        /* border: 1px solid rgb(219, 219, 219); */
+      }
+
+      #tempDiv img {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 80%;
+      }
